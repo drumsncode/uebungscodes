@@ -1,1 +1,30 @@
-/* This is for styling using css */
+body {
+background-color:rgb(211, 208, 208)
+}
+h1 {color: antiquewhite;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(182, 51, 199);
+    inline-size: auto;}
+
+h2 {color: antiquewhite;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(182, 51, 199);
+    inline-size: auto;}
+
+h3 {color: antiquewhite;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(182, 51, 199);
+    inline-size: auto;}
+p  {text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
