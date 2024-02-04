@@ -24,8 +24,31 @@
       <img src="https://theacademy.band/wp-content/uploads/2023/12/DSC00745-2-768x492.png" alt="Dick und Doof!">
       <a href="">https://www.theacademy.band/</a>
       <p>Aktuelle Releases!</p>
-      <ol>Queen of the red Light, Betray, All that remains, Parasite</ol>
+      <ol>Queen of the Red Light <br> Betray <br> All that remains <br> Parasite</ol>
+      
+     
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Background Color Change</title>
+          <css>
+      </head>
+      <body>
+      
+      <button id="colorButton">Hintergrundfarbe ändern</button>
+      
+      <script>
 
+          document.getElementById("colorButton").onclick = function() {
+             
+              var randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+              document.body.style.backgroundColor = randomColor;
+          };
+      </script>
+      
+      </body>
+      </html>
     </div>
   </body>
 </html>
